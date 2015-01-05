@@ -1,0 +1,56 @@
+body {
+	font-family: sans-serif;
+}
+
+#bfWrapper {
+	width: 900px;
+	height:500px;
+	clear: both;
+}
+#flow {
+	border: solid 1px;
+	border-color:red;
+	width:300px;
+	height:300px;
+	float: left;
+}
+#bathy {
+	border: solid 1px;
+	border-color:red;
+	width:500px;
+	height: 300px;
+	float: left;
+}
+#modParam {
+	border: solid 1px;
+	border-color:red;
+	width:350px;
+	height: 100px;
+	float: left;
+}
+#tideChart {
+}
+
+
+.blankFig {
+	width: 300px;
+	height: 300px;
+	border: solid 1px;
+	border-color: #3399FF;
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.axis path, 
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: cripsEdges;
+}
+
+.line {
+	fill: none;
+	stroke: #000;
+	stroke-width: 1.5px;
+}
